@@ -1,0 +1,12 @@
+{
+  "name": "hitchtracker",
+  "version": "0.0.0",
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "tailwindwatch": "tailwindcss -i ./nouse/tw.css -o ./styles/style.css --watch",
+    "tailwindbuild": "tailwindcss -i ./nouse/tw.css -o ./styles/style.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
