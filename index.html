@@ -21,9 +21,13 @@
 <p>Prijs p/km: 1,13 EUR€ / 1.27 USD$</p>
 </div>
 <div id="routedata" class="font-sans ml-8 mt-10">
+    <p id="pricefullride">Prijs geselecteerde route: -</p>
+    <p id="distancefullride">Afstand geselecteerde route: -</p><br/>
+    <p></p>
     <p id="ridden">Gereden: Start een route voor deze data</p>
-    <p id="priceridden">Kosten gereden rit: Start een route voor deze data</p>
-
+    <p id="priceridden">Kosten gereden rit: Start een route voor deze data</p><br/>
+    <button id="startride" onclick="StartStopRoute()" class="border my-1 p-1 bg-gray-200 rounded">Start ride</button><br/>
+    <button id="endride" onclick="StartStopRoute()" class="border p-1 bg-gray-200 rounded" style="display: none">Stop ride</button>
 </div>
 <div id="map"></div>
 <script src="scripts/startup.js"></script>
